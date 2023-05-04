@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+}
+#brand{
+    color: bisque;
+    font-family: 'Pacifico', cursive;
+    
+}
+#brand span{
+    color:antiquewhite;
+    text-shadow:  0 0 30px #e60073;
+    font-size: 27px;
+    transition: 0.2s;
+}
+#brand span:hover{
+    font-size: 32px;
+    text-shadow:  0 0 30px rgba( 17, 226, 234, 0.2 );
+    color: rgba( 17, 226, 234, 0.2 );
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+    background-image: url(cvBackground.jpg);
+}
+.card{
+   
+    display: flex;
+    width: 1100px;
+    height: 550px;
+    background: rgba( 17, 226, 234, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+.picture{
+    display: flex;
+    width: 550px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba( 255, 255, 255, 0.18 );
+    
+    
+  
+}
+#frame{
+    width: 200px;
+    height: 200px;
+    background-image: url(Profile.jpg);
+    background-size: cover;
+    border-radius: 100px;
+    margin-left: 40px;
+    box-shadow: 0 0 50px black;
+    
+
+}
+#name {
+
+    color: bisque;
+   
+    padding-top: 60px;
+    padding-left: 20px;
+
+} h2 {
+
+    text-shadow: 0 0 20px #e60073;
+
+
+}
+.info{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 270px;
+    
+    
+}
+p{
+    color: beige;
+    font-size: 18px;
+    padding: 4px;
+}
+a{
+    color: beige;
+    font-size: 18px;
+}
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:justify;
+    width: 550px;
+    height: 250px;
+    color:beige;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 50px;
+    line-height: 25px;
+
+}
+.skills{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align:justify;
+    width: 550px;
+    height: 250px;
+    
+
+}
+.skills th{
+    text-align: left;
+    color: bisque;
+}
+.skills td{
+    color: bisque;
+    text-shadow: 0 0 30px #e60073;
+}
+.skills h1{
+    color: bisque;
+    text-shadow: 0 0 30px #e60073;
+}
+

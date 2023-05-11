@@ -171,6 +171,7 @@ a{
        padding-left: 120px ; 
     }
     .description{
+        font-size: 13px;
         width: 80%;
         margin-left: 10%;
         margin-top: 5%;
@@ -181,5 +182,7 @@ a{
         border-radius: 10px;
         border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
-    
+    p, a{
+        font-size: 15px;
+    }
 }
